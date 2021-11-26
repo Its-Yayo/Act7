@@ -14,5 +14,8 @@ class Fraccion {
 
         int getNum(); int getDen();
 
-        
+        void setNum(int);
+        void setDen(int);
+
+        double 
 }
