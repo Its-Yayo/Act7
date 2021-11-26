@@ -17,5 +17,8 @@ class Fraccion {
         void setNum(int);
         void setDen(int);
 
-        double 
-}
+        double calcularValorReal();
+        void sumarFraccion(Fraccion);
+        void imprimeFraccion(void);
+
+}; 
