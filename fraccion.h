@@ -1,16 +1,16 @@
-#include <stdio.h>
+#pragma once
+#include <iostream>
 
 using namespace std;
 
 class Fraccion {
     
     private: 
-        int num;
-        int den;
+        int num, den;
 
     public:
         Fraccion();
-        Fraccion(int num, int den);
+        Fraccion(int, int);
 
         int getNum(); int getDen();
 
@@ -18,7 +18,7 @@ class Fraccion {
         void setDen(int);
 
         double calcularValorReal();
-        void sumarFraccion(Fraccion);
-        void imprimeFraccion(void);
+        Fraccion sumarFraccion(Fraccion);
+        void imprimeFraccion();
 
 }; 
